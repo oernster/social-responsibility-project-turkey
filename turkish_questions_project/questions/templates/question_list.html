@@ -3,29 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question List</title>
+    <title>Veda anketi</title>
     <style>
         /* Add style to highlight missed radio button questions in red */
         .missed-radio {
             color: red;
+	    margin-left: 4em;
+	    border: solid 2px red;
+	    margin-right: auto;
+	    padding: .5em 0;
+	    display: none;
         }
+
+	#questions {
+	    list-style: none;
+	}
+
+	.question:nth-child(odd) {
+	    background-color: #CCCCCC;
+	}
+
+	.question {
+	    padding-bottom: 1em;
+	}
+
+	.selections > ul {
+	    list-style: none;
+	}
+
+	.question:has(input:invalid) > .missed-radio {
+		display: block;
+	}
+
     </style>
 </head>
 <body>
-    <form action="" method="post">
+    <h1>Veda anketi</h1>
+    <form id=survey action="" method="post">
+	<ol id=questions>
         {% csrf_token %}
         {% for question in questions %}
-            <div>
+	    <li class=question>
                 <label>{{ question.text }}</label>
                 {% if question.id in missed_questions %}
                     <!-- Add class to highlight missed radio button questions -->
-                    <span class="missed-radio">Lütfen bir seçenek seçin</span>
+		    <p class="missed-radio">Lütfen bir seçenek seçin</p>
                 {% endif %}
-                <input type="radio" name="question_{{ question.id }}" value="yes" {% if user_responses and question.id in user_responses and user_responses.question.id == 'yes' %} checked {% endif %}> Evet
-                <input type="radio" name="question_{{ question.id }}" value="no" {% if user_responses and question.id in user_responses and user_responses.question.id == 'no' %} checked {% endif %}> HAYIR
-                <input type="radio" name="question_{{ question.id }}" value="dont_know" {% if user_responses and question.id in user_responses and user_responses.question.id == 'dont_know' %} checked {% endif %}> Bilmiyorum
-            </div>
+		<div class=selections>
+			<ul>
+				<li><input type="radio" name="question_{{ question.id }}" id="question_{{ question.id }}_yes" value="yes" required {% if user_responses and question.id in user_responses and user_responses.question.id == 'yes' %} checked {% endif %}><label for="question_{{ question.id }}_yes">Evet</label></li>
+				<li><input type="radio" name="question_{{ question.id }}" id="question_{{ question.id }}_no" value="no" {% if user_responses and question.id in user_responses and user_responses.question.id == 'no' %} checked {% endif %}><label for="question_{{ question.id }}_no">HAYIR</li>
+				<li><input type="radio" name="question_{{ question.id }}" id="question_{{ question.id }}_idk" value="dont_know" {% if user_responses and question.id in user_responses and user_responses.question.id == 'dont_know' %} checked {% endif %}><label for="question_{{ question.id }}_idk">Bilmiyorum</label></li>
+			</ul>
+	    </li>
         {% endfor %}
+	</ol>
         <button type="submit">Submit</button>
     </form>    
 </body>
