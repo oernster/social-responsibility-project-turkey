@@ -24,3 +24,4 @@ IF you have not created a super user then run python manage.py createsuperuser a
 
 If you want to load the database with raw data (I already have but it's a sqlite3 db so you can just delete the db file and recreate it by submitting new data) then you can run: python manage.py loaddata rawdata.json and edit rawdata.json before running that command.
 
+If you want as admin, to add/edit user data then you go to 127.0.0.1:8000/admin
