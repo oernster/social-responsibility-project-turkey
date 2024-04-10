@@ -14,6 +14,8 @@ To run: (clone the repo, install git, click big green button, click copy, type: 
 
 ### On windows run: venv/Scripts/activate
 
+### Run: python -m pip install -r requirements.txt 
+
 ### cd turkish_questions_project
 
 ### python manage.py runserver
