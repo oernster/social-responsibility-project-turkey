@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question List</title>
+    <style>
+        /* Add style to highlight missed radio button questions in red */
+        .missed-radio {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        {% for question in questions %}
+            <div>
+                <label>{{ question.text }}</label>
+                {% if question.id in missed_questions %}
+                    <!-- Add class to highlight missed radio button questions -->
+                    <span class="missed-radio">Lütfen bir seçenek seçin</span>
+                {% endif %}
+                <input type="radio" name="question_{{ question.id }}" value="yes" {% if user_responses and question.id in user_responses and user_responses.question.id == 'yes' %} checked {% endif %}> Evet
+                <input type="radio" name="question_{{ question.id }}" value="no" {% if user_responses and question.id in user_responses and user_responses.question.id == 'no' %} checked {% endif %}> HAYIR
+                <input type="radio" name="question_{{ question.id }}" value="dont_know" {% if user_responses and question.id in user_responses and user_responses.question.id == 'dont_know' %} checked {% endif %}> Bilmiyorum
+            </div>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>    
+</body>
+</html>

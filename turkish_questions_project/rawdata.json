@@ -1,0 +1,359 @@
+[
+    {
+        "model": "questions.Question",
+        "pk": 1,
+        "fields": {
+            "text": "ÖT1: Süt dişleri 20 tanedir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 2,
+        "fields": {
+            "text": "ÖT2: İlk daimi azı diş 6 yaşında sürer (belirir)."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 3,
+        "fields": {
+            "text": "ÖT3: Süt dişlerin erken kaybı daimi dişlerin gelişimini etkiler."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 4,
+        "fields": {
+            "text": "ÖT4: Süt dişlerdeki çürükler daimi dişleri etkilemez."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 5,
+        "fields": {
+            "text": "ÖT5: Dişler sürer sürmez (belirir belirmez) diş hekimi ziyaretine gidilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 6,
+        "fields": {
+            "text": "ÖT6: Çocukların kendisine ait çocuk diş fırçası olmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 7,
+        "fields": {
+            "text": "ÖT7: Çocuklarda 7-8 yaşa kadar dişler ebeveyn denetimiyle fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 8,
+        "fields": {
+            "text": "ÖT8: Diş fırçası 3 ayda bir değiştirilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 9,
+        "fields": {
+            "text": "ÖT9: Dişler 2 dakika süre ile fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 10,
+        "fields": {
+            "text": "ÖT10: Diş fırçalaması dişeti kanamasını engeller."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 11,
+        "fields": {
+            "text": "ÖT11: Dişler flor içeren diş macunuyla fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 12,
+        "fields": {
+            "text": "ÖT12: Diş fırçalamasından sonra dil yüzeyi de temizlenmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 13,
+        "fields": {
+            "text": "ÖT13: Çocuklarda diş ipi kullanılabilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 14,
+        "fields": {
+            "text": "ÖT14: Şurup ve diğer ilaçlardan sonra dişler temizlenmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 15,
+        "fields": {
+            "text": "ÖT15: Çocuğu ağızdan öpmek çürük oluşumunu arttırır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 16,
+        "fields": {
+            "text": "ÖT16: İlk ağız-diş muayenesi 3.ayda yapılmalıdır"
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 17,
+        "fields": {
+            "text": "ÖT17: Çocuklar her akşam dişlerini kendileri fırçalamalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 18,
+        "fields": {
+            "text": "ÖT18: Dişler fırçalanırken her yüzeyden 8 defa geçilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 19,
+        "fields": {
+            "text": "ÖT19: Dişlerini düzenli olarak fırçalayan çocuklarda dişeti iltihabi görülmez."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 20,
+        "fields": {
+            "text": "ÖT20: Dişler bitkisel florsüz diş macunuyla fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 21,
+        "fields": {
+            "text": "ÖT21: Anne sütü diş çürüklerine sebep olmaz."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 22,
+        "fields": {
+            "text": "ÖT22: Şekerli gıdalar diş sağlığını olumsuz etkiler."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 23,
+        "fields": {
+            "text": "ÖT23: Erken Çocukluk Çağı Çürükleri flor uygulaması ve flor içeren diş macunuyla dişlerin fırçalanmasıyla önlenebilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 24,
+        "fields": {
+            "text": "ÖT24: Biberonla gece beslenme ve gece emzirme erken çocukluk çağı çürüklerin sebeplerindendir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 25,
+        "fields": {
+            "text": "ÖT25: Şekerli gıdılar ara öğünlerde tüketilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 26,
+        "fields": {
+            "text": "ÖT26: Gece boyunca anne memesi veya biberonla beslenmenin dişlerin çürümesine sebep olabilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 27,
+        "fields": {
+            "text": "ÖT27: Ağız ve diş sağlığına en yararlı besin grubu meyve ve sebzelerdir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 28,
+        "fields": {
+            "text": "ÖT28: Peynir, yoğurt gibi gıdalar diş çürüklerine neden olmaz."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 29,
+        "fields": {
+            "text": "ÖT29: Ağızda uzun süre yiyeceklerin bekletilmesi diş çürüğüne sebep olabilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 30,
+        "fields": {
+            "text": "ÖT30: Şurup formundaki ilaçlar yüksek şeker içeriği nedeni ile diş çürüğüne sebep olabilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 31,
+        "fields": {
+            "text": "ÖT31: Karbonhidrat grubu şekerli gıdalar öğlen yemeğinde tüketilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 32,
+        "fields": {
+            "text": "ÖT32: Öğün aralarında elma, havuç gibi sert dişleri temizleyip dişetine masaj yapacak gıdalar yenmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 33,
+        "fields": {
+            "text": "ÖT33: Florun çürük önleyici etkisi bulunmaktadır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 34,
+        "fields": {
+            "text": "ÖT34: Uygun miktarda uygulanan flor ürünlerinin sağlığa herhangi bir olumsuz etkisi yoktur."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 35,
+        "fields": {
+            "text": "ÖT35: Dişler günde 2 defa flor içeren diş macunuyla fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 36,
+        "fields": {
+            "text": "ÖT36: 2-4 yaşında çocukların dişleri düşük flor içeren macun (1000 ppm) ile fırçaya bezelye kadar sürülerek fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 37,
+        "fields": {
+            "text": "ÖT37: 6 yaşından sonra dişler yetişkinlerin kullandığı flor içerikli diş macunu (1450 ppm) ile fırça boyu kadar sürülerek fırçalanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 38,
+        "fields": {
+            "text": "ÖT38: Çürük riski yüksek çocuklarda 6 ayda bir diş hekimi tarafından profesyonel flor uygulaması tekrarlanmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 39,
+        "fields": {
+            "text": "ÖT39: Süt ve tuzların florlanması gerekmektedir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 40,
+        "fields": {
+            "text": "ÖT40: 6 yaş altı çocukların flor içeren gargara kullanması önerilmemektedir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 41,
+        "fields": {
+            "text": "ÖT41: 6 yaş altında çocuklarda flor içeren macun kullanılamaz."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 42,
+        "fields": {
+            "text": "ÖT42: Tüm çocuklara 6 ayda bir düzenli olarak profesyonel flor uygulaması yapılmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 43,
+        "fields": {
+            "text": "ÖT43: Çürük süt dişleri tedavi edilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 44,
+        "fields": {
+            "text": "ÖT44: Süt dişlerindeki çürükler tedavi edilmezse çocuğun genel sağlığını ve gelişimini etkilenebilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 45,
+        "fields": {
+            "text": "ÖT45: Düşme zamanından önce çekilen süt dişlerinin yerine yer tutucu apareyler yapılmalıdır."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 46,
+        "fields": {
+            "text": "ÖT46: Süt dişlerine kanal tedavisi uygulanamaz."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 47,
+        "fields": {
+            "text": "ÖT47: Aşırı çürük dişlere paslanmaz çelik kron uygulaması yapılabilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 48,
+        "fields": {
+            "text": "ÖT48: Çocuklarda diş travmaları durumunda acil müdahale gereklidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 49,
+        "fields": {
+            "text": "ÖT49: Süt dişler çürüdüğünde çekilmelidir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 50,
+        "fields": {
+            "text": "ÖT50: Süt dişler erken çekilirse dişler çapraşık sürebilir."
+        }
+    },
+    {
+        "model": "questions.Question",
+        "pk": 51,
+        "fields": {
+            "text": "ÖT51: Ağızda çürük dişlerin bulunması ağız kokusuna sebep olabilir."
+        }
+    }
+]
